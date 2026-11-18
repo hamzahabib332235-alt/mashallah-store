@@ -163,6 +163,8 @@ export interface User {
   role: UserRole;
   phone?: string;
   pin?: string;
+  passwordHash?: string;
+  salt?: string;
   active: boolean;
 }
 
